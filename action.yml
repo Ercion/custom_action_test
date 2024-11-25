@@ -1,0 +1,10 @@
+name: "Hello World Custom Action"
+description: "A custom action to print 'Hello Good World'"
+author: "Ercion"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+inputs: {} # No inputs required
+outputs: {} # No outputs provided
