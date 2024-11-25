@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-COPY hello_world.sh /hello_world.sh
+COPY hello_world.sh /usr/local/bin/hello_world.sh
 
-RUN chmod +x /hello_world.sh
+RUN chmod +x /usr/local/bin/hello_world.sh
 
-ENTRYPOINT ["/hello_world.sh"]
+ENTRYPOINT ["hello_world.sh"]
