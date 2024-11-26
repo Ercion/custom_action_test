@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu
 
 COPY hello_world.sh /hello_world.sh
 
