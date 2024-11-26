@@ -1,4 +1,5 @@
-FROM ubuntu
+#FROM ubuntu
+FROM debian:bullseye-slim
 
 COPY hello_world.sh /hello_world.sh
 
